@@ -1,1 +1,3 @@
 # Movies-ETL
+
+The overall purpose of this code is to read in three databases of information about movies and clean them out in order to then perform analysis on them. The function 'clean_movie' brought in a row of data and then removed unwanted columns of information and renamed the columns in order to create a consistent system. The 'extract_transform_load' function had multiple parts including: calling the clean_movie function, removing null values, parsing through columns in order to create uniformity, merged the data from Wikipedia and Kaggle into one dataframe, created a ratings dataframe, and created a datbase through SQL and imported the dataframes into tables. 
